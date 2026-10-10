@@ -1,0 +1,63 @@
+{
+  "name": "کنکوریار ۲.۰ — دستیار هوشمند و رقابتی کنکور",
+  "short_name": "کنکوریار",
+  "description": "دستیار جامع مطالعه و کنکور سراسری تجربی با تایمر Yeolpumta، جعبه لایتنر هوشمند، رقابت دونفره زنده و آزمون‌ساز هوشمند",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1527",
+  "theme_color": "#2563eb",
+  "lang": "fa",
+  "dir": "rtl",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "تایمر مطالعه",
+      "short_name": "تایمر",
+      "description": "شروع تایمر هوشمند مطالعه",
+      "url": "/?tab=timer",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "رقابت دونفره",
+      "short_name": "دونفره",
+      "description": "مشاهده وضعیت زنده مطالعه دونفره",
+      "url": "/?tab=couple",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "جعبه لایتنر",
+      "short_name": "لایتنر",
+      "description": "مرور فلش‌کارت‌ها و تست‌ها",
+      "url": "/?tab=leitner",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

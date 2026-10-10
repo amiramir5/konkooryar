@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: konkooryar-api
+    runtime: node
+    plan: free
+    buildCommand: npm install --no-audit --no-fund && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: API_ALLOWED_ORIGINS
+        value: https://localhost,capacitor://localhost
+      - key: TRUST_PROXY
+        value: "true"

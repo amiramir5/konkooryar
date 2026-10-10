@@ -1,0 +1,6 @@
+{
+  "name": "کنکوریار ۲.۰ — دستیار هوشمند و رقابتی کنکور",
+  "description": "دستیار جامع مطالعه و کنکور سراسری تجربی با تایمر Yeolpumta، جعبه لایتنر هوشمند، آزمون‌ساز هوش مصنوعی، رقابت دونفره زنده و تحلیل جامع کارنامه",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
